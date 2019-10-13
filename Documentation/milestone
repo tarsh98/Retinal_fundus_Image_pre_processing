@@ -1,0 +1,198 @@
+Name: Tarsh Sahu
+Roll No: E16CSE159
+Email: tarsh.sahu@bennett.edu.in
+Project Title: Stop blindness before it’s too late.
+
+Data Details
+Source of Data/Size of Data/No. of Records/ Variety/ Authenticity of Data Etc. (2 Marks)
+Aravind technicians (Aravind Eye Hospital) in India travelled to different parts of India to capture images and then rely on highly trained doctors to review the images and provide diagnosis now they are thinking of scaling their efforts through technology and gain the ability to automatically screen images for disease and help to provide the information on how severe the condition may be. 
+Size of the data is 10 gigabytes. Total 3663 training images are present along with 1928 testing images. To capture the images, they used fundus photography to get the image in every condition possible for the improvement of dataset.
+Classification of images is done based on white spots present around the retina which are the main cause of blindness
+Data consists of images and the corresponding csv file which tells about the severity of diabetic retinopathy on a scale of 0 to 4:
+0 - No DR
+1 - Mild
+2 - Moderate
+3 - Severe
+4 - Proliferative DR
+The above dataset of images is taken using fundus photography under a variety of conditions available on Kaggle , talking about fundus photography it consists of intricate microscope that is attached to flash enabled camera which involves taking the photo of rear eye in different light conditions also known as fundus.
+Further Asia Pacific Tele-Ophthalmology (APTOS) will spread the solution to other ophthalmologists.
+              
+
+
+
+
+
+
+User Interface Design
+Salient Points/ How it meets the characteristics of User Centered Design etc.  (2 Mark)
+This is a research-based project and the user base of this project are doctors who can understand the images that are good enough after pre-processing and suitable to act as an input to the deep learning  model for the prediction purpose although if they want to share the model used to other researchers and doctors for the benefit they can do it easily by just proving an API key where the model is deployed and all the scripts will be uploaded as google cloud functions so that it can be shared easily with other people in this domain who are actively looking out to solve this problem and are eager to make a world a better place to live by eradicating the problem by early detecting the blindness due to diabetes.
+The user base (Ophthalmologists and Researchers) of this project needs to do analysis from the available histogram, pre-processed images and through other visualizations so that he/she can make sure that the prediction is accurate. 
+Figure 1:
+After applying Gaussian Blur and Homomorphic Filter
+         
+	Before                                         After
+
+Figure 2: 
+Smoothness Correction pixel by pixel
+ 
+
+	Figure 3: (Histogram Equalization)
+ 
+ Figure 4: (Heat Map Visualization)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+User Surveys (1 Mark) (At least 50 words for each feedback)
+Potential User 1 Feedback: 
+Your algorithm has to be very sensitive for this type of data as other than the fatty acids that deposit on the surface of the retina your algorithm might get confuse between exudates and optic nerve center as both are bright resulting in bad prediction. Your algorithm has to be very sensitive for this type of data as other than the fatty acids that deposit on the surface of the retina your algorithm might get confused between exudates and optic nerve center as both are bright resulting in bad prediction also take care of the hemorrhages around the blood vessels.
+Potential User 2 Feedback: 
+There are broadly two types of exudates which will determine the accuracy of your model one is hard exudate which are easily visible as they are bright enough and the other is “Cotton wool” spots which are not much visible but they will also make your prediction better.
+Potential User 3 Feedback: 
+Your calculation must be touchy for this sort of information as other than the unsaturated fats that store on the surface of the retina your calculation may get befuddle among exudates and optic operational hub as both are splendid bringing about terrible expectation so you might go for image enhancement techniques that will help you differentiate between these two.
+Potential User 4 Feedback: 
+The strongest part of your algorithm should be the pre-processing technique like contrast enhancement and separating green channel will give you proper understanding and one more thing you can do is optic disc elimination so that it doesn’t get mixed with the exudates , I will advise you to separate out blood vessels and then analyze before coming to any conclusion.
+Potential User 5 Feedback: 
+Feature extraction should be your focus as this will yield you the appropriate result and the technique you are trying to use should be strong enough to get hold of unnecessary things like the images taken through fundus photography are not much in detail so you should use some sort filters to bring out the best.
+
+
+
+
+
+
+
+
+Design Documents (Overall Block Diagram/ Data Flow Diagram/ Architecture Diagram/ Solution Diagram, UML Diagram etc.) (As Applicable) (3 Marks)
+
+                          
+				
+
+
+
+
+
+Ethical and legal/privacy/terms and conditions (3 Marks)
+The first and foremost concern of using this algorithm is that their data will be protected and will only be shared for research purpose only and cannot be sell for monetary benefits to other organizations if anyone found violating this clause will be punished accordingly as this data is very sensitive. 
+If anyone(patient) agrees to use this technology for the analysis or agrees to uses this algorithm for analyzing the severity of the disease then he should agree that his/her retina image that was taken through fundus photography will be added to the dataset so that this dataset can become more strong and help the medical society to come out with better result and achieve the state of the art algorithm for the betterment of human life and advancement in early blindness detection due to diabetes in more precise manner. 
+The algorithm will only be used by the well-educated person after understanding how it works and what are the key points that he/she needs to keep in mind during the analysis of the fundus image and coming to any result.
+Information Access and Use. Rivalry Use and Non-Commercial and Academic Research is checked: You may access and use the Data for non-business purposes, and for scholarly research and training. 
+Information Security. You consent to use sensible and reasonable measures to counteract people who have not officially consented to these Rules from accessing the Data.
+You may also use external data, but it should be available to others for Non-Commercial and Academic Research for the purpose of making the database stronger and for the improvement in the algorithm.
+If anyone found using data for commercial purpose or for any inappropriate purpose which are not in the favor as mentioned above will have to giveaway the data and the algorithm immediately.
+This algorithm can be used by only highly specialized doctors with the proper understanding as this is the matter of someone's life which should be taken seriously and if they found any abnormalities with the result, they should report immediately and accordingly changes will be base with that person's consent if and only if researchers find's is incorrect.
+If anyone using this data found any problem with the images can also report it and this will be taken care of immediately and if they have any other means by which they can improve the dataset they can suggest it and if it is found viable and efficient then it will be followed and will get implement accordingly.
+Before  getting diagnosed patient and doctor should agree on the above terms as retina image of the patient will be added to the database which will be available to researchers for further improvement but their privacy will be hidden like age, name and other personal details for privacy purpose and will be highly confidential and at any cost it won't be shared to other people even researchers also will not be knowing this.
+Consent is therefore in all actuality, for nothing out of pocket, to any individual getting a duplicate of this product and related documentation records (the "Product"), to bargain in the Software without confinement, including without restriction the rights to utilize, duplicate, alter, consolidate, distribute, circulate, sublicense, and additionally sell duplicates of the Software, and to allow people to whom the Software is outfitted to do as such, subject to the accompanying condition: 
+The above copyright notice and this consent notice will be incorporated into all duplicates or considerable segments of the Software.
+feasibility study/ Business Context of the idea/ Monetization/ Opportunity Analysis (2 Marks)
+(At least 250 Words)
+ The idea of detecting early blindness due to diabetes is a really practical idea and moreover, this is promoted by  Aravind Eye Hospital in India  and further, the solutions  will be spread to the other Ophthalmologists through the 4th Asia Pacific Tele-Ophthalmology Society so by this we can clearly say that this idea is very much practical and from past few years deep learning has been of great help to medical science form detecting breast cancer to lung cancer which have been quite successful and also number of researchers are working in this domain so that results generated by the deep learning for detecting the severity level of blindness can become robust, cheap and easily accessible to tier 3 cities if this becomes successful then on personal level I think that the government should propose and help in scaling this potential idea. The cost of machine and fees of doctors can be reduced after the introduction of this algorithm and patients can get their report within hours after proper inspection by the doctors.
+Also, it will give a boost to the existing researchers in the medical field which will be another non-monetary added advantage and the medical field will advance rapidly.
+Talking about the monetization we can charge according to the number of times the algorithm is used for the diagnosis, which can be done by making an API for the final model where just image needs to get uploaded and will be charged according to the number of hits the user made on that API.
+
+Partial Implementation/ Draft Code (3 Marks)
+–	GitHub Link 
+https://github.com/tarsh98/Retinal_fundus_Image_pre_processing
+
+
+
+
+
+
+
+
+
+
+
+
+
+Week wise Updates/ Diary/ Proportional achievement of stated outcomes/ Graded Functionality etc. (2 Mark)
+Week 1
+First of all, I was very clear in my mind that I have to do the project in the domain of machine learning and artificial intelligence as it is my strong point. Further, I searched for the actual problem then medical domain just crossed my mind as I was always overwhelmed by the achievements of the medical society. I researched other areas too like IoT which is booming but it didn't fascinate me as much medical domain did after reading an article about how artificial intelligence is changing the life in the medical field at that point I made a decision about doing capstone project in the medical domain.
+Week 2
+After doing plenty of research in medical I came across many problems like lung cancer detection which is of major concern as it cannot be analyzed easily so I researched around this and came across a research paper on early blindness detection and it fascinated me a lot so I looked up on the internet and found about the early blindness detection due to diabetes. Though there is nothing solid in this domain, I found one dataset provided by the Aravind Eye Hospital in India. As dataset plays a very crucial role in the field of machine learning interestingly dataset is of very high quality which further convinced me to go for this topic.
+Week 3
+Diabetes is one of major concern but the blindness due to diabetes was other which is ignored by the people due to lack of their knowledge in tier 3 cities which exactly Aravind Eye Hospital was trying to do and trying to spread to other Ophthalmologists around the world with the help of  Asia Pacific Tele-Ophthalmology Society (APTOS) Symposium. I came across several research papers in this domain and it helped me a lot to gain the insights about this and also I studied the structure of eye as it is very crucial for me to understand the smallest details related to the eye to come to any conclusion or tackle any  problem related to this disease.
+Week 4
+Analyzing the dataset which involves checking out the images present for each class and actually what are the features that govern it belongs to that particular class to tackle the very basic problem of overfitting and underfitting which can be observed clearly with the histogram representation of total images present in each class and to explore the better dataset available in medical domain with similar problem statement that can help in improving the accuracy, basically pre-processing is the first and foremost important part towards building a successful research project for the medical society. 
+
+
+
+
+
+Week 5
+The most important part of my project is image pre-processing so I started studying about the best image processing techniques and applied them that can be used to increase the standard of medical images like contrast enhancement, analyzing the hue, saturation and intensity of images for better understanding of images and there is another thing known as CLAHE( Contrast Limited Adaptive Histogram Equalization) which helps to distribute the overall contrast of images and then increasing the brightness value pixel by pixel affecting the result directly. Then I researched and came across that filters can be one that will help me to stand out so I'm currently writing an algorithm for that.
+
+Week 6
+I will start exploring the sklearn library, pyimage library, matplotlib library, numpy library, pandas library to begin experimenting with pre-processing the dataset and compare the accuracy of each algorithm from the previous week. Due to the large size of the dataset, it took me more than a week to gather the result and this thing got extended to next week as analyzing the result was a very difficult part every time to pre-process all the images it took around 3 hours and sometimes even more than that. Then Grayscale was another technique that I explored during this time and started reading a research paper related to it.
+Week 7
+As my dataset is of 10 GB so it took me long enough to test each algorithm for pre-processing and also side by side I was writing a filter algorithm which may turn out to be breakthrough cause you never know what will work and give you the desired result also I'm reading different research papers in medical field also I will write basic neural network architecture to check the performance of different  pre-processing algorithm like convolution neural network of different depths and fine-tuning the hyperparameter values basically tweaking around the different number of layers, learning rate, filter size etc.
+ Week 8
+I achieved a good accuracy but somewhere inside my mind, I was pretty dissatisfied even though I haven't much explored regarding what deep learning models to be used then I came across automatic detection of exudates in retinal images using histogram research paper and is started reading about it, in the starting it was quite difficult but eventually and understood the paper in a while and got a hold of it  also I begun started thinking about algorithm and exploring more about it, basically I was trying to detect fatty yellowish acids around the retina which are the main cause of all the problem.
+Week 9
+When I was reading research papers to gather the deep understanding of fundus photography I came across some really interesting terms which could affect the pre-processing technique in positive ways like eliminating the optic nerve center which is a huge bright spot and can be easily confused with the exudates, by not taking into consideration blot hemorrhages as they are not the disease rather they 're the hallmark of ocular and systematic diseases. The entropy esteem for diabetic retinopathy pictures concedes altogether from ordinary pictures also, the difference between blood vessels, exudates and hemorrhages are best seen in the green channel so I extracted that one.
+Week 10
+It will require some investment for pre-handling just the green channel additionally the examination part was extremely troublesome as I need to arbitrarily choose promotion check on the off chance that it is done in the correct manner or not, when I assessed that I found an improved score so I began searching for progressively model and began tuning the parameter if any way I can improve the exactness as it might not be a decent score however not excessively much. It will take me around 3-4 hours to train the model and to do the hyper tuning as the dataset is of 10 GB according to my earlier knowledge.
+
+
+Week 11
+I’m planning to explore the more model that is specifically meant for medical purpose so that the features will not be much different in result it will help me to improve the accuracy so for that purpose I will read some research paper in the field of medical science and then accordingly I will evaluate my model as. I'm hoping that by the end of the week I will have my trained model that I prepared in initial steps until then I will explore the other ways for the pre-processing as it is the base of all the thing after all that will help in prediction.
+Week 12
+After exploring all the possibilities that I did in past, I will start making the complete model and measuring the accuracy, hyper tuning and many other things even through by pre-processing images with the help of tuning the parameter as this week will be very crucial so I will try to rub the model as much as possible to give it a final touch due to huge amount of training time. I will be ready with some model that is specific to medical images so that will also be implemented and in the end, I will evaluate the accuracy using kappa or dice coefficient.
+
+One Impressive Post on LinkedIn about your Project (2 Marks)
+(At least 100 words and one Image and 5 hashtags, Tag at least CSE Bennett handle)
+https://www.linkedin.com/posts/tarsh-sahu_csebennett-healthcare-deeperlearning-activity-6578656966791487488-SgKC
+
+
+
+
+
+
+
+
+Discuss your Project with at least three students of your junior batches of Bennett University and ask them how they rate your project from 1 to 10 scale. Write all three name, Roll No, email and Mobile No of those students.  They should be ready to confirm if they are called on their mobile number (1+1+1 for each of three students)
+In tier 1 and tier 2 cities, the inhabitants have the resources to be tested and go through a robust diagnosis. However, people in tier 3 cities lack the infrastructure and skills to perform proper diagnosis. Due to this bottleneck, people need a robust automated diagnosis which is cheap and easily accessible. The impact of such a project is unprecedented. On a scale of one to ten, I would evaluate this project to be a 9.
+Saumya Teotia
+LA17MC082
+8279943332
+I found this project really fascinating as it is for the greater good and you’re trying to make the world a better place to live. This project is about more than just showcasing technical prowess, and this is something anyone would appreciate. I would rate this project 9.75/10.
+Rohan
+E18CSE150
+7093704966
+
+I like your project but I can’t fully trust machine doing this type of sensitive diagnosis but the way you want this project to reach out to the other underprivileged people is really amazing and I appreciate that but still somehow that trust factor is missing which you actually get from doctors when you visit them other than that your projects sounds interesting and helpful. I would rate this project 7/10.
+Avishka Sharma
+E18ECE009
+9958194005
+
+ 
+Discuss your project with Two Persons outside the Bennett University (apart from your family members) and ask them how they rate your project and its progress from 1 to 10 scale. Write all three names, who they are, email and Mobile No of those. They should be ready to confirm if they are called on their mobile number (1+1 for each of two).
+(At least 50 words feedback from each of them, Positive or negative feedback will not determine the marks, but the quality of the feedback will)
+This project fascinates me as no one really cared that diabetes is not just a disease related to sugar but it can have some adverse after-effects that you took care and saw that it is really important to solve this problem with the help of advanced technology. I’m mesmerized by your project and I would rate this project 10 on 10 for the greater good and all the best.
+Bharat Kushwaha (Engineer at TCS)
+bharatkushwaha@gmail.com
+9654119676
+
+The way you’re trying to combine medical science and artificial intelligence is really interesting but I doubt that this will yield effective result rather it won’t have any negative impact but if you were able to do this it will be the next big thing and the agenda that you have of making this available to tier3 cities will be of great success. I would rate this 8 on 10.
+Shobhit Mehrotra (Area Manager at LG)
+Shobhitmehrotra567@gmail.com
+9580160693
+
+ 
+Get a rating from your mentor (Only One Mentor) and ask him for a rating from 1 to 10 about your consistency, progress and potential to complete the project on time. (3 Marks)
+He was exceptionally dazzled by the decision of my undertaking and he did saw my task improvement consistently and I generally thought of some new thing and progress by which he was cheerful, with respect to the most recent pre-preparing calculation he suggested a few upgrades which I did and accomplished great precision by that thing he revealed to me that this project can be of gigantic potential as it is the booming field and part of research is additionally going on. He evaluated this project 8 on 10. 
+Dr. Rishav Singh
+(At least 50 words feedback from each of them, Positive or negative feedback will not determine the marks, but the quality of the feedback will)
+
